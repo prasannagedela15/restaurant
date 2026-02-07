@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:yellowgreen;
+}
+.navbar{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1000;
+}
+.navbar a{
+     color: white;
+     text-decoration: none;
+     margin: 15px;
+     font-size: 25px;
+     border-radius: 8px;
+     padding: 10px;
+}
+.navbar a:hover{
+    background-color: blue;
+} 
+.container{
+    padding: 120px 0px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 12px 12px 20px  solid black;
+}
+#home{
+    background-image: url("resta.jpg") ;
+    background-repeat: no-repeat;
+
+}
+.site-header{
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    font-size: 24px;
+}
+#contact{
+    padding: 120px 0px;
+    text-align: center;
+    border: 5px solid gray;
+    margin: 120px;
+   
+}
+#feedback{
+    padding: 120px 0px;
+    text-align: center;
+    border: 5px solid gray;
+    margin: 120px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    gap: 10px;
+}
+label{
+    text-align: left;
+    font-weight: bold;
+}
+input,textarea{
+    width: 20%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+button{
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20%;
+}
+button:hover{
+    background-color: green;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    display: inline-block;
+    width: 150px;
+    margin: 15px;
+    padding: 10px 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgba(red, green, blue, alpha);
+}
+.item img{
+    width: 100%;
+    border-radius: 5px;
+}
+.item button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.item button:hover{
+    background-color: green;
+    width: 100%;
+}
+h2{
+    
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(red, green, blue);
+    color: yellow;
+}
+pre{
+    color: yellow;
+}
